@@ -1,4 +1,4 @@
-package javaFeatures;
+package Programs;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

@@ -1,11 +1,12 @@
-package javaFeatures;
+package Programs;
 
-public class FindSecondLargestNumber 
+public class BubbleSort 
 {
 	public static void main(String[] args)
 	{
-		int[] X= {85,45,35,77,12,8,7,36};
+		int[] X= {12,33,44,25,68,8};
 		int temp=0;
+		
 		for(int i=0;i<X.length;i++)
 		{
 			for(int j=i+1;j<X.length;j++)
@@ -19,12 +20,8 @@ public class FindSecondLargestNumber
 			}
 		}
 		for(int x:X)
-		{
 			System.out.print(x+" ");
-		}
-		System.out.println();
 		
-		System.out.println("Second largest number is: "+X[X.length-2]);
 	}
 
 }

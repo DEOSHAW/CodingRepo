@@ -1,4 +1,4 @@
-package javaFeatures;
+package Programs;
 
 import java.util.LinkedHashSet;
 import java.util.Scanner;
